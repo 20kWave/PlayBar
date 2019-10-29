@@ -17,21 +17,3 @@ CREATE TABLE songs (
   thumbnail VARCHAR(150),
   PRIMARY KEY (id)
 );
-
-CREATE TABLE upNext (
-  position INT AUTO_INCREMENT,
-  songId INT,
-  FOREIGN KEY (songId) 
-    REFERENCES songs(id)
-    ON UPDATE CASCADE,
-  UNIQUE KEY (position)
-);
-
-CREATE TABLE previousPlays (
-  position INT AUTO_INCREMENT,
-  songId INT,
-  FOREIGN KEY (songId) 
-    REFERENCES songs(id)
-    ON UPDATE CASCADE,
-  UNIQUE KEY (position)
-);

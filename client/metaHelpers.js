@@ -3,10 +3,13 @@ import axios from 'axios';
 const metaHelpers = {
   // Current Player song will always be the first song in the next up playlist
   mount() {
-    axios.get('http://localhost:3020/songs')
-      .then((results) => {
+    const id = window.location.href.split('/')[4];
+    axios
+      .get(`http://localhost:3020/playlist/songs`)
+      .then(results => {
         // 1) Get all the songs as the default playlist
         const songs = results.data;
+        console.log(results.data);
         // 2) Splice out first song and push to upNext playlist
         const upNext = [];
         upNext.push(songs.shift());
@@ -15,10 +18,10 @@ const metaHelpers = {
         return this.setState({
           songs,
           upNext,
-          songFile: new Audio(upNext[0].songFile),
+          songFile: new Audio(upNext[0].songFile)
         });
       })
-      .catch((err) => console.log('mount err: ', err));
+      .catch(err => console.log('mount err: ', err));
   },
   tick(songfile) {
     const { songs, upNext, repeat, songFile } = this.state;
@@ -72,9 +75,10 @@ const metaHelpers = {
   like(songId, isLiked) {
     const { upNext } = this.state;
     //  Post to the "/like:songId" route to toggle like status
-    axios.post(`http://localhost:3020/like/${songId}`, { isliked: isLiked })
+    axios
+      .post(`http://localhost:3020/like/${songId}`, { isliked: isLiked })
       .then(() => axios.get('http://localhost:3020/songs'))
-      .then((results) => {
+      .then(results => {
         const songs = results.data;
         // if songId is current player song, toggle isliked to re-render "like" status
         if (songId === upNext[0].songId) {
@@ -83,8 +87,8 @@ const metaHelpers = {
         }
         return this.setState({ upNext, songs: results.data });
       })
-      .catch((err) => console.log('like err', err));
-  },
+      .catch(err => console.log('like err', err));
+  }
   //  *IF TIME REFACTOR:
   //  *Get nextUp songIds, use Promise.each to:
   //    *use '/songs/:id' to get the song obj
