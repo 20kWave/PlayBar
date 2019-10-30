@@ -12,15 +12,23 @@ This features an animated player synced proportionally with a time-stamped locat
 ## API
 ### URL
 `localhost:3020/songs/:id`
-Dynamically render playlist based on id of the entrypoint url.
+Dynamically render a user's playlist based on id of the entrypoint url.
 
 ### GET
-`/playlist/:id`
-Retrieve a playlist based on id.
+`/:id/:playlistId`
+Retrieve a user's playlist based on id.
 
-### POST 
-`/like/:songId`
-Update the liked status of a song based on id.
+### POST
+`/add/:id/:playlistId/:songId`
+Add a song to a user's playlist.
+
+### DELETE
+`/remove/:id/:playlistId/:songId`
+Delete a song in a user's playlist.
+
+### PUT
+`/like/:id/:songId`
+Update a user's liked status of a song.
 
 ## Requirements
 
