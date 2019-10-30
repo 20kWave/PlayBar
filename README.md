@@ -4,7 +4,7 @@ This features an animated player synced proportionally with a time-stamped locat
 
 ## Table of Contents
 
-1. [Usage](#Usage)
+1. [API](#API)
 1. [Requirements](#requirements)
 1. [Dependencies](#installing)
 1. [Development](#development)
