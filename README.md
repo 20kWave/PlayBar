@@ -20,11 +20,27 @@ Dynamically render a user's playlist based on id of the entrypoint url.
 | Query Params (required) | Type |
 | ----------- | ----------- |
 | userId | number | 
-| playlistId | number |
+| songId | number |
 
 Retrieve a user's playlist based on id.
 
-Response type: JSON
+Response:
+```
+[
+  {
+    songId: number,
+    length: number,
+    timestamp: number,
+    isliked: boolean,
+    songFile: string,
+    title: string,
+    artist: string,
+    album: string,
+    thumbnail: string,
+  }
+]
+```
+
 
 ### POST
 `/song`
