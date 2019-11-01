@@ -23,8 +23,7 @@ Dynamically render a user's playlist based on id of the entrypoint url.
 | playlistId | number |
 
 Retrieve a user's playlist based on id.
-
-| Response | JSON data|
+Response type: JSON
 
 ### POST
 `/song`
