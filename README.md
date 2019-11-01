@@ -19,7 +19,7 @@ Dynamically render a user's playlist based on id of the entrypoint url.
 
 | Query Params (required) | Type |
 | ----------- | ----------- |
-| userId | number | 
+| artistId | number | 
 | songId | number |
 
 Retrieve a user's playlist based on id.
@@ -43,36 +43,34 @@ Response:
 
 
 ### POST
-`/song`
+`/like`
 
 | Query Params (required) | Type |
 | ----------- | ----------- |
 | userId | number |
-| playlistId | number |
-| songTitle | string |
-
-Add a song to a user's playlist.
-
-### DELETE
-`/song`
-
-| Query Params (required) | Type |
-| ----------- | ----------- |
-| userId | number |
-| playlistId | number |
 | songId | number |
 
-Delete a song in a user's playlist.
+Add a liked song to user's like list.
+
+### DELETE
+`/like`
+
+| Query Params (required) | Type |
+| ----------- | ----------- |
+| userId | number |
+| songId | number |
+
+Unlike a song and delete it in an user's like list. 
 
 ### PUT
-`/like`
+`/song`
 
 | Query Params (required)| Type |
 | ----------- | ----------- |
-| userId | number |
+| artistId | number |
 | songId | number |
 
-Update a user's liked status of a song.
+Update a song info.
 
 ## Requirements
 
