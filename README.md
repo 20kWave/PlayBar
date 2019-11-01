@@ -17,17 +17,19 @@ Dynamically render a user's playlist based on id of the entrypoint url.
 ### GET
 `/playlist`
 
-| Query Params| Type |
+| Query Params (required) | Type |
 | ----------- | ----------- |
-| userId | number |
+| userId | number | 
 | playlistId | number |
 
 Retrieve a user's playlist based on id.
 
+| Response | JSON data|
+
 ### POST
 `/song`
 
-| Query Params | Type |
+| Query Params (required) | Type |
 | ----------- | ----------- |
 | userId | number |
 | playlistId | number |
@@ -38,7 +40,7 @@ Add a song to a user's playlist.
 ### DELETE
 `/song`
 
-| Query Params| Type |
+| Query Params (required) | Type |
 | ----------- | ----------- |
 | userId | number |
 | playlistId | number |
@@ -49,7 +51,7 @@ Delete a song in a user's playlist.
 ### PUT
 `/like`
 
-| Query Params| Type |
+| Query Params (required)| Type |
 | ----------- | ----------- |
 | userId | number |
 | songId | number |
