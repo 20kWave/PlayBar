@@ -69,8 +69,9 @@ Unlike a song and delete it in an user's like list.
 | ----------- | ----------- |
 | artistId | number |
 | songId | number |
+| songTitle | string |
 
-Update a song info.
+Update a song's title.
 
 ## Requirements
 
