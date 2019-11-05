@@ -15,14 +15,15 @@ This features an animated player synced proportionally with a time-stamped locat
 Dynamically render a user's playlist based on id of the entrypoint url.
 
 ### GET
-`/playlist`
+`/song`
 
 | Query Params (required) | Type |
 | ----------- | ----------- |
-| artistId | number | 
+| autoPlay | boolean | 
 | songId | number |
+| userId (optional) | number |
 
-Retrieve a user's playlist based on id.
+Retrieve a song based on the id.
 
 Response:
 ```
@@ -60,14 +61,14 @@ Add a liked song to user's like list.
 | userId | number |
 | songId | number |
 
-Unlike a song and delete it in an user's like list. 
+Unlike a song and delete it from an user's like list. 
 
 ### PUT
 `/song`
 
 | Query Params (required)| Type |
 | ----------- | ----------- |
-| artistId | number |
+| artist | string |
 | songId | number |
 | songTitle | string |
 
