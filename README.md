@@ -68,7 +68,6 @@ Unlike a song and delete it from an user's like list.
 
 | Query Params (required)| Type |
 | ----------- | ----------- |
-| artist | string |
 | songId | number |
 | songTitle | string |
 
