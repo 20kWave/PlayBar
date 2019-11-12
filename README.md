@@ -19,7 +19,6 @@ Dynamically render a user's playlist based on id of the entrypoint url.
 
 | Query Params (required) | Type |
 | ----------- | ----------- |
-| autoPlay | boolean | 
 | songId | number |
 | userId (optional) | number |
 
