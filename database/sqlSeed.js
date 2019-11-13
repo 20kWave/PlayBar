@@ -3,13 +3,19 @@ const path = require("path");
 
 const client = new Client({
   user: "postgres",
-  host: "13.57.239.222",
+  host: "52.52.23.251",
   database: "wave",
   password: null,
   port: 5432
 });
 
-client.connect();
+client.connect(err => {
+  if (err) {
+    console.error("connection error", err.stack);
+  } else {
+    console.log("db connected");
+  }
+});
 
 client
   .query(
