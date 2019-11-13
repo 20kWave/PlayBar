@@ -15,3 +15,17 @@ coverage
 coverage/clover.xml
 
 coverage/lcov-report/index.html
+
+artistsSql.csv
+
+songsLikesSql.csv
+
+songsSql.csv
+
+usersSql.csv
+
+playbar_key_pair.pem
+
+dump.rdb
+
+newrelic_agent.log
