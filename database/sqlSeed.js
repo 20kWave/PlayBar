@@ -21,7 +21,7 @@ client
   .query(
     `copy users (userName) from '${path.join(
       __dirname,
-      "/usersSql.csv"
+      "/../playbarCSV/usersSql.csv"
     )}' delimiter '|' CSV HEADER;`
   )
   .then(() => {
@@ -29,7 +29,7 @@ client
     return client.query(
       `copy artists (artistName) from '${path.join(
         __dirname,
-        "/artistsSql.csv"
+        "/../playbarCSV/artistsSql.csv"
       )}' delimiter '|' CSV HEADER;`
     );
   })
@@ -38,7 +38,7 @@ client
     return client.query(
       `copy songs (songLength, songFile, title, artistId, album, thumbnail) from '${path.join(
         __dirname,
-        "/songsSql.csv"
+        "/../playbarCSV/songsSql.csv"
       )}' delimiter '|' CSV HEADER;`
     );
   })
@@ -47,7 +47,7 @@ client
     return client.query(
       `copy songslikes (userId, songId, isLiked) from '${path.join(
         __dirname,
-        "/songsLikesSql.csv"
+        "/../playbarCSV/songsLikesSql.csv"
       )}' delimiter '|' CSV HEADER;`
     );
   })
