@@ -3,7 +3,7 @@ const path = require("path");
 
 const client = new Client({
   user: "postgres",
-  host: "52.52.23.251",
+  host: "0.0.0.0",
   database: "wave",
   password: null,
   port: 5432
