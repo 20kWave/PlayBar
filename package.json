@@ -5,11 +5,11 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --coverage",
-    "db": "mysql -u root -p < ./database/data/schema.sql",
-    "db-nopassword": "mysql -u root < ./database/data/schema.sql",
-    "build": "webpack -w",
-    "start": "nodemon ./server/index.js localhost 3020",
-    "seed-database": "node database/seed.js"
+    "sqldb": "psql -U mac_home -d postgres -f ./database/data/schema.sql",
+    "build": "webpack",
+    "start": "nodemon ./server/index.js",
+    "seedSql": "node database/data/sqlSeed.js",
+    "data": "node database/data/dataGenerator.js"
   },
   "repository": {
     "type": "git",
@@ -48,16 +48,23 @@
   "dependencies": {
     "@babel/polyfill": "^7.6.0",
     "axios": "^0.19.0",
-    "bluebird": "^3.7.0",
+    "bluebird": "^3.7.1",
     "body-parser": "^1.19.0",
+    "cassandra-driver": "^4.3.0",
+    "compression": "^1.7.4",
     "cors": "^2.8.5",
+    "csvtojson": "^2.0.10",
     "express": "^4.17.1",
     "faker": "^4.1.0",
     "mysql": "^2.17.1",
+    "newrelic": "^6.1.0",
     "nodemon": "^1.19.3",
     "path": "^0.12.7",
+    "pg": "^7.12.1",
     "prop-types": "^15.7.2",
+    "random": "^2.1.1",
     "react": "^16.10.2",
-    "react-dom": "^16.10.2"
+    "react-dom": "^16.10.2",
+    "redis": "^2.8.0"
   }
 }
