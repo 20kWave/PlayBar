@@ -1,11 +1,11 @@
-const { Pool, Client } = require("pg");
-const path = require("path");
+const { Pool, Client } = require('pg');
+const path = require('path');
 
 const pool = new Pool({
-  user: "postgres",
-  host: "0.0.0.0",
-  database: "wave",
-  password: "password",
+  user: 'postgres',
+  host: '0.0.0.0',
+  database: 'wave',
+  password: 'password',
   port: 5432
 });
 
@@ -13,7 +13,7 @@ const pool = new Pool({
 //   console.log('conneted to db');
 // });
 
-pool.on("error", client => {
+pool.on('error', client => {
   console.log(err);
 });
 
