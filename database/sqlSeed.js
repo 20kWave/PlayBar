@@ -19,36 +19,24 @@ client.connect(err => {
 
 client
   .query(
-    `copy users (userName) from '${path.join(
-      __dirname,
-      "/../playbarCSV/usersSql.csv"
-    )}' delimiter '|' CSV HEADER;`
+    `copy users (userName) from '/tmp/pgcsv/playbarCSV/usersSql.csv' delimiter '|' CSV HEADER;`
   )
   .then(() => {
     console.log("inserting artists");
     return client.query(
-      `copy artists (artistName) from '${path.join(
-        __dirname,
-        "/../playbarCSV/artistsSql.csv"
-      )}' delimiter '|' CSV HEADER;`
+      `copy artists (artistName) from '/tmp/pgcsv/artistsSql.csv' delimiter '|' CSV HEADER;`
     );
   })
   .then(() => {
     console.log("inserting songs");
     return client.query(
-      `copy songs (songLength, songFile, title, artistId, album, thumbnail) from '${path.join(
-        __dirname,
-        "/../playbarCSV/songsSql.csv"
-      )}' delimiter '|' CSV HEADER;`
+      `copy songs (songLength, songFile, title, artistId, album, thumbnail) from '/tmp/pgcsv/songsSql.csv' delimiter '|' CSV HEADER;`
     );
   })
   .then(() => {
     console.log("inserting songslikes");
     return client.query(
-      `copy songslikes (userId, songId, isLiked) from '${path.join(
-        __dirname,
-        "/../playbarCSV/songsLikesSql.csv"
-      )}' delimiter '|' CSV HEADER;`
+      `copy songslikes (userId, songId, isLiked) from '/tmp/pgcsv/songsLikesSql.csv' delimiter '|' CSV HEADER;`
     );
   })
   .then(() => {
