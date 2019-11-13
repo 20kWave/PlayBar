@@ -19,7 +19,7 @@ client.connect(err => {
 
 client
   .query(
-    `copy users (userName) from '/tmp/pgcsv/playbarCSV/usersSql.csv' delimiter '|' CSV HEADER;`
+    `copy users (userName) from '/tmp/pgcsv/usersSql.csv' delimiter '|' CSV HEADER;`
   )
   .then(() => {
     console.log("inserting artists");
