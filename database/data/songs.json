@@ -1,0 +1,482 @@
+[
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+Carry+On+Wayward+Son.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000119695222-hl7mpp-t500x500.jpg",
+    "song_duration": "321"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+Inside+Out+(feat.+Charlee).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000033889644-9zy617-t500x500.jpg",
+    "song_duration": "233"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+Kings+of+Summer+(feat.+Quinn+XCII)+%5BSingle+Version%5D.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000228761930-uw4sqw-t500x500.jpg",
+    "song_duration": "207"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+No+Sleep.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-aiJUpeH32Djv-0-t500x500.jpg",
+    "song_duration": "191"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+Roses+(feat.+ROZES).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-Cv5lIThv8Am6-0-t500x500.jpg",
+    "song_duration": "226"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+Something+Better+(feat.+Lady+Antebellum).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000317419401-cfa86f-t500x500.jpg",
+    "song_duration": "212"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+The+Fighting+Song.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-a9y5hXsgwU2e-0-t500x500.jpg",
+    "song_duration": "228"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/01+The+Little+Things+(feat.+Angela+McCluskey).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000164457695-plu703-t500x500.jpg",
+    "song_duration": "286"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/1-04+Sleepless+(feat.+Jezzabell+Doran).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-pfOQC8My9OCo-0-t500x500.jpg",
+    "song_duration": "209"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/02+Crazy+Train.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-0ME6xLQO3Bjb-0-t500x500.jpg",
+    "song_duration": "290"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/02+Touchdown+(Island+Love+Version).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-de7lguzgx3oE-0-t500x500.jpg",
+    "song_duration": "182"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/04+Don_t+Worry.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-dtXaGCGTH2GM-0-t500x500.jpg",
+    "song_duration": "203"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/04+Lay+My+Claim.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-dTUBUGMflT5w-0-t500x500.jpg",
+    "song_duration": "242"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/04+Runaway+Train.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000041152793-g4nqks-t500x500.jpg",
+    "song_duration": "245"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/05+Back+Then.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-N2PvuC3eQnZV-0-t500x500.jpg",
+    "song_duration": "252"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/05+Fade+Away.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-ead2c3d1-6bc3-435b-8893-f9dfec4948f9-0-t500x500.jpg",
+    "song_duration": "209"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/05+Pay+No+Mind+(feat.+Passion+Pit).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-phOVVZaAWZjN-0-t500x500.jpg",
+    "song_duration": "249"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/05+Pretty+Lady.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000406962459-1rdszx-t500x500.jpg",
+    "song_duration": "220"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/07+Notice+Me.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-jZ4MhgzsCeD2-0-t500x500.jpg",
+    "song_duration": "203"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/07+The+Buzz+(feat.+Mataya+_+Young+Tapz).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-X9ECgJjtm2D8-0-t500x500.jpg",
+    "song_duration": "221"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/08+Alive+2.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-LIfLnVPinpp9-0-t500x500.jpg",
+    "song_duration": "285"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/09+Lionhearted+(feat.+Urban+Cone).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-6Ey9bVhrOQyd-0-t200x200.jpg",
+    "song_duration": "266"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/09+Sleepyhead.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-lLcfGeHyrwx7-0-t500x500.jpg",
+    "song_duration": "174"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/10+Keep+It+Mello+(feat.+Omar+Linx).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-mJM0v8IbS9aC-0-t500x500.jpg",
+    "song_duration": "243"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/10+Older.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-7B9K1B0iCvNY-0-t500x500.jpg",
+    "song_duration": "234"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/10+The+Drugs.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-nCnZ2AkxjTrQ-0-t500x500.jpg",
+    "song_duration": "262"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/13+Sativa.m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-0bZv0PYGWBwf-0-t500x500.jpg",
+    "song_duration": "241"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Ain_t+My+Fault+(R3hab+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-rtbnf1jKMzhz-0-t500x500.jpg",
+    "song_duration": "159"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/All+We+Know+(feat.+Phoebe+Ryan).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-SDlnsWZyrio9-0-t500x500.jpg",
+    "song_duration": "194"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Another+Day+In+Paradise.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-SmwyhV0qHIWE-0-t500x500.jpg",
+    "song_duration": "255"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Blame+(feat.+Elliphant).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000583028201-bn4fmb-t500x500.jpg",
+    "song_duration": "218"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Bones.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000596865161-eahd9u-t500x500.jpg",
+    "song_duration": "222"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Breathe.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-SrgiXRDU19C4-0-t500x500.jpg",
+    "song_duration": "175"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Bring+it+Down+(Dillistone+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000548554350-12tdb6-t500x500.jpg",
+    "song_duration": "222"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Burn+Wild+(Young+Bombs+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000475341159-tb7dwe-t500x500.jpg",
+    "song_duration": "213"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Came+Up+(feat.+Post+Malone+_+Key!).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000600104264-gmv51b-t500x500.jpg",
+    "song_duration": "215"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Can_t+Hide+(feat.+Ashe).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-Lo1kgdAhF1OY-0-t500x500.jpg",
+    "song_duration": "184"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Catch+Me+(feat.+Naaz)+%5BCandlelight+Remix%5D.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000573126128-puhbim-t500x500.jpg",
+    "song_duration": "135"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Collapse+2.0+(feat.+Memorecks).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000040918988-esouxl-t500x500.jpg",
+    "song_duration": "199"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Don_t+Let+Me+Down+(3LAU+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000058981513-k0y8hd-t500x500.jpg",
+    "song_duration": "214"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Easy+Go+(feat.+Delaney+Jane).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000168832643-7s82pf-t500x500.jpg",
+    "song_duration": "191"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Fast+Car+(feat.+Dakota).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-OWKeuFYB0ezE-0-t500x500.jpg",
+    "song_duration": "212"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Feel+Good+(feat.+Daya).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000034641100-evi0kr-t500x500.jpg",
+    "song_duration": "252"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Fight+Song.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000045320385-poid7d-t500x500.jpg",
+    "song_duration": "203"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Final+Song.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000019380068-n4ejak-t500x500.jpg",
+    "song_duration": "233"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Finish+Line+(feat.+Doe+Wright).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000075558132-fy5tv6-t500x500.jpg",
+    "song_duration": "180"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Flare+Guns+(feat.+Chelsea+Cutler).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000036757933-js2cma-t500x500.jpg",
+    "song_duration": "239"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Fortress+(feat.+Joni+Fatora)+%5BJust+A+Gent+Remix%5D.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000030026172-86m9z3-t500x500.jpg",
+    "song_duration": "237"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Friend.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000046826426-o7i9ki-t500x500.jpg",
+    "song_duration": "292"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Friends+In+The+Dark+(feat.+Otis+Parker).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000081944984-b29c1g-t500x500.jpg",
+    "song_duration": "186"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Glory+_+Gore+(Unlike+Pluto+remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000385131576-r9bq1u-t500x500.jpg",
+    "song_duration": "204"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Hello+(Marshmello+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-2abcaf2b-d0f9-4ec8-ad38-e83cb2c79b27-0-t500x500.jpg",
+    "song_duration": "233"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Hero+(feat.+Christina+Perri).mp3",
+    "song_art_url": "https://i1.sndcdn.com/avatars-000331016690-g5utdg-t500x500.jpg",
+    "song_duration": "198"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/I+Want+U.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-8p8VVow1ksFd-0-t500x500.jpg",
+    "song_duration": "212"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/I+Won_t+Let+You+Walk+Away+(feat.+Madison+Beer).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-RRKmVXcilWFq-0-t500x500.jpg",
+    "song_duration": "165"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/In+The+Name+Of+Love+(feat.+Bebe+Rexha).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-hfeQFCFDyk9m-0-t500x500.jpg",
+    "song_duration": "198"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Infinity+(Illenium+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-8tFwryXE6Vf8-0-t500x500.jpg",
+    "song_duration": "278"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/It_s+All+On+U+(feat.+Liam+O_Donnell).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-T57DemwYS2Ut-0-t500x500.png",
+    "song_duration": "204"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Leaves+in+the+Pool.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-wDrGREVyd670-0-t500x500.jpg",
+    "song_duration": "218"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Light.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-BWiOHpuSXLI0-0-t500x500.jpg",
+    "song_duration": "240"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Limelight+(feat.+ROZES)+%5BNGHTMRE+Remix%5D.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-bTfJN2R7JvO2-0-t500x500.jpg",
+    "song_duration": "255"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/09+Lionhearted+(feat.+Urban+Cone).m4a",
+    "song_art_url": "https://i1.sndcdn.com/artworks-wlTOSyD1USOC-0-t500x500.jpg",
+    "song_duration": "216"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Lost+in+You.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-GDBf848n0gXU-0-t500x500.jpg",
+    "song_duration": "207"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Love+_+War+(feat.+Yade+Lauren).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-NNYg9mnBGLA4-0-t500x500.jpg",
+    "song_duration": "180"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Love+Is+Alive+(feat.+Elohim).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-PSisSikQ3kKg-0-t500x500.jpg",
+    "song_duration": "170"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Make+Time.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-ZqlrFViBYvXy-0-t500x500.jpg",
+    "song_duration": "203"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Mr.+Brightside+(Two+Friends+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-1nyIGg9s8QpJ-0-t500x500.jpg",
+    "song_duration": "215"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Native+Tongue.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-I6rsKQDT2qNO-0-t500x500.jpg",
+    "song_duration": "178"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Neighborhood.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-IrpdD6f2x9Dl-0-t500x500.jpg",
+    "song_duration": "220"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/No+Coming+Down+(feat.+Alex+Wiley+_+Sky+Montique).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-fy1FosylY3EX-0-t500x500.jpg",
+    "song_duration": "195"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/No+Sunshine.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-7iPQmkzcOvIL-0-t500x500.jpg",
+    "song_duration": "178"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Nonsense+(feat.+Mark+Foster).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-YcTk6qWXkwTM-0-t500x500.jpg",
+    "song_duration": "226"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Nonsense+(Live+Edit).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-gfOJedqK130T-0-t500x500.jpg",
+    "song_duration": "148"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Nothin_s+on+Fire.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-YDKCgfEjZMJt-0-t500x500.jpg",
+    "song_duration": "202"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Straightjacket.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-AeDN87vTNPV4-0-t500x500.jpg",
+    "song_duration": "206"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Say+It+(feat.+Tove+Lo)+(Illenium+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-jhOxifWB2PTy-0-t500x500.jpg",
+    "song_duration": "267"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Say+It+(feat.+Tove+Lo).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000594137154-slmzbh-t500x500.jpg",
+    "song_duration": "262"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Shelter.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000597764357-xcrg61-t500x500.jpg",
+    "song_duration": "217"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Show+_+Tell+(feat.+Claire+Ridgely).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-aOOOBGtG3Vlz-0-t500x500.jpg",
+    "song_duration": "185"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Smoke+_+Retribution+(feat.+Vince+Staples+_+Kuc%CC%8Cka).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000593311836-1ps4pc-t500x500.jpg",
+    "song_duration": "240"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Smoke+Filled+Room+vs.+The+Buzz.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-uzih1iJQgQvj-0-t500x500.jpg",
+    "song_duration": "206"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/So+Long+(feat.+Madi).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-qgoFFOv8uhBj-0-t500x500.jpg",
+    "song_duration": "178"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Perdoname+(feat.+Adrian+Delgado+_+Cy+Cy).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000512905044-7r5f4k-t500x500.jpg",
+    "song_duration": "269"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Superstar+(feat.+Krewella).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-Ct5bh2m9jCsB-0-t500x500.jpg",
+    "song_duration": "204"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Take+Me+Apart+(feat.+Remmi).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-NtGjrL2sXeya-0-t500x500.jpg",
+    "song_duration": "216"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Talk+Is+Overrated+(feat.+Blackbear).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-hXbFJPcJfZa1-0-t500x500.jpg",
+    "song_duration": "189"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Mine+(Bearson+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-vLF0GRkcCWky-0-t500x500.jpg",
+    "song_duration": "225"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Thief.mp3",
+    "song_art_url": "https://i1.sndcdn.com/avatars-000009619835-m8wwvy-t500x500.jpg",
+    "song_duration": "242"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Things+(Taylor+Wise+Remix).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-LCOe8qoZuEeL-0-t500x500.jpg",
+    "song_duration": "215"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Together+We_re+Screwed+(feat.+Nevve).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-CJ51kqasienI-0-t500x500.jpg",
+    "song_duration": "196"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Troubled+(feat.+Debs+Daughter).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-ge5mLkrregJR-0-t500x500.jpg",
+    "song_duration": "207"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Shelter.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-bfl7RT9iGQcS-0-t500x500.jpg",
+    "song_duration": "280"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/The+Thrill.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-000069066140-4h0ug6-t500x500.jpg",
+    "song_duration": "235"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Wild+Kind+(feat.+Varpu).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-KoUlAeThdG5k-0-t500x500.png",
+    "song_duration": "215"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/With+You+(feat.+Quinn+XCII).mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-jUKqcFwjfn4x-0-t500x500.jpg",
+    "song_duration": "186"
+  },
+  {
+    "song_url": "https://20kwave-playbar.s3-us-west-1.amazonaws.com/Working+For+It.mp3",
+    "song_art_url": "https://i1.sndcdn.com/artworks-bszxD0O8hhUH-0-t500x500.jpg",
+    "song_duration": "231"
+  }
+]

@@ -1,19 +1,41 @@
-DROP DATABASE IF EXISTS soundCloutPlayer;
+DROP DATABASE IF EXISTS wave;
 
-CREATE DATABASE soundCloutPlayer;
+CREATE DATABASE wave;
 
-USE soundCloutPlayer;
+\c wave;
+
+CREATE TABLE users (
+  userId SERIAL NOT NULL,
+  userName VARCHAR(100),
+  PRIMARY KEY (userId)
+);
+
+CREATE TABLE artists (
+  artistId SERIAL NOT NULL,
+  artistName VARCHAR(100),
+  PRIMARY KEY (artistId)
+);
 
 CREATE TABLE songs (
-  id INT NOT NULL AUTO_INCREMENT,
-  songId INT NOT NULL,
-  length INT NOT NULL,
-  timestamp INT DEFAULT 0,
-  isliked TINYINT DEFAULT 0,
+  songId SERIAL NOT NULL,
+  songLength SMALLINT NOT NULL,
   songFile VARCHAR(150),
   title VARCHAR(150),
-  artist VARCHAR(60),
+  artistId INTEGER REFERENCES artists(artistId) ON DELETE CASCADE,
   album VARCHAR(60),
   thumbnail VARCHAR(150),
-  PRIMARY KEY (id)
+  PRIMARY KEY (songId)
 );
+
+CREATE INDEX idx_artistId ON songs(artistId);
+
+CREATE TABLE songsLikes (
+  songsLikedId SERIAL NOT NULL,
+  userId INTEGER REFERENCES users(userId) ON DELETE CASCADE,
+  songId INTEGER REFERENCES songs(songId) ON DELETE CASCADE, 
+  isLiked BOOLEAN,
+  PRIMARY KEY (songsLikedId)
+);
+
+CREATE INDEX idx_usersId ON songsLikes(userId);
+CREATE INDEX idx_songId ON songsLikes(songId);

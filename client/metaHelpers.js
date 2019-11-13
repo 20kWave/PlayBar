@@ -5,7 +5,7 @@ const metaHelpers = {
   mount() {
     const id = window.location.href.split('/')[4];
     axios
-      .get(`http://localhost:3020/playlist/songs`)
+      .get(`/playlist/songs`)
       .then(results => {
         // 1) Get all the songs as the default playlist
         const songs = results.data;
