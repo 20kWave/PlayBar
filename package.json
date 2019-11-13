@@ -8,7 +8,7 @@
     "sqldb": "psql -U mac_home -d postgres -f ./database/data/schema.sql",
     "build": "webpack",
     "start": "nodemon ./server/index.js",
-    "seedSql": "node database/data/sqlSeed.js",
+    "seedSql": "node database/sqlSeed.js",
     "data": "node database/data/dataGenerator.js"
   },
   "repository": {
