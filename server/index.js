@@ -44,7 +44,7 @@ app.use(compression({ filter: shouldCompress }));
 app.use(express.static(path.join(__dirname, '../public')));
 app.use('/songs/:id', express.static(path.join(__dirname, '../public')));
 app.use(
-  '/loaderio-e7c99a3e0d1fea4258c07b87eeba2ad1',
+  '/loaderio-e7c99a3e0d1fea4258c07b87eeba2ad1/',
   express.static(
     path.join(__dirname, '../loaderio-e7c99a3e0d1fea4258c07b87eeba2ad1.txt')
   )
