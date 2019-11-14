@@ -10,7 +10,7 @@ redis = Promise.promisifyAll(redis);
 
 const client = redis.createClient({
   port: 6379,
-  host: 'localhost'
+  host: '0.0.0.0'
 });
 
 client.on('ready', () => console.log('redis connected'));

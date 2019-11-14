@@ -5,20 +5,20 @@ const metaHelpers = {
   mount() {
     const id = window.location.href.split('/')[4];
     axios
-      .get(`/playlist/songs`)
+      .get(`/playbar/song?songId=${id}`)
       .then(results => {
         // 1) Get all the songs as the default playlist
         const songs = results.data;
         console.log(results.data);
         // 2) Splice out first song and push to upNext playlist
         const upNext = [];
-        upNext.push(songs.shift());
+        upNext.push(songs[0]);
         // 3) When setting state, make a songFile out of upNext[0]
         // 4) Set state: songs, upNext, songFile
         return this.setState({
           songs,
           upNext,
-          songFile: new Audio(upNext[0].songFile)
+          songFile: new Audio(songs[0].songfile)
         });
       })
       .catch(err => console.log('mount err: ', err));

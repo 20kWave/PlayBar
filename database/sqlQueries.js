@@ -2,10 +2,10 @@ const { Pool, Client } = require('pg');
 const path = require('path');
 
 const pool = new Pool({
-  user: 'mac_home',
-  host: 'localhost',
+  user: 'postgres',
+  host: '0.0.0.0',
   database: 'wave',
-  password: null,
+  password: 'password',
   port: 5432
 });
 
