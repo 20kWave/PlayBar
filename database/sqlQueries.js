@@ -3,7 +3,7 @@ const path = require('path');
 
 const pool = new Pool({
   user: 'postgres',
-  host: '0.0.0.0',
+  host: '52.52.23.251',
   database: 'wave',
   password: 'password',
   port: 5432
