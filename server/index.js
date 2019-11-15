@@ -49,6 +49,12 @@ app.use(
     path.join(__dirname, '../loaderio-e7c99a3e0d1fea4258c07b87eeba2ad1.txt')
   )
 );
+app.use(
+  '/loaderio-b274b36121388715cc09aac1dd0e0901.txt',
+  express.static(
+    path.join(__dirname, '../loaderio-b274b36121388715cc09aac1dd0e0901.txt')
+  )
+);
 
 const cacheSong = (key, val) => {
   client.set(key, val, 'EX', 3600);

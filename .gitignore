@@ -29,3 +29,5 @@ playbar_key_pair.pem
 dump.rdb
 
 newrelic_agent.log
+
+redis_key_pair.pem
