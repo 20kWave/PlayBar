@@ -8,10 +8,7 @@ const db = require('./../database/sqlQueries');
 let redis = require('redis');
 redis = Promise.promisifyAll(redis);
 
-const client = redis.createClient({
-  port: 6379,
-  host: '52.53.96.223'
-});
+const client = redis.createClient({ host: '52.53.96.223' });
 
 client.on('ready', () => console.log('redis connected'));
 
@@ -53,6 +50,13 @@ app.use(
   '/loaderio-b274b36121388715cc09aac1dd0e0901.txt',
   express.static(
     path.join(__dirname, '../loaderio-b274b36121388715cc09aac1dd0e0901.txt')
+  )
+);
+
+app.use(
+  '/loaderio-0492a9769cfb6607c02df653dead48b1.txt',
+  express.static(
+    path.join(__dirname, '../loaderio-0492a9769cfb6607c02df653dead48b1.txt')
   )
 );
 
