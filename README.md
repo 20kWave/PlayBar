@@ -1,6 +1,6 @@
 # 20kWave Active Player Module
 
-This features an animated player synced proportionally with a time-stamped location in a song. Its clickable components include a play/pause toggle button, fastforward/rewind buttons, shuffle/repeat buttons, hover volume control, album thumbnails, and a like button.
+This features an animated player synced proportionally with a time-stamped location in a song. Its clickable components include a play/pause toggle button, fast forward/rewind buttons, shuffle/repeat buttons, hover volume control, album thumbnails, and a like button.
 
 ## Table of Contents
 
