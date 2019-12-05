@@ -11,7 +11,7 @@ This features an animated player synced proportionally with a time-stamped locat
 
 ## API
 ### URL
-`localhost:3020/songs/:id`
+`/songs/:id`
 Dynamically render a user's playlist based on id of the entrypoint url.
 
 ### GET
@@ -74,7 +74,7 @@ Update a song's title.
 
 ## Requirements
 
-- Node 6.13.1
+- Node 13.1
 
 ## Installing Dependencies
 
